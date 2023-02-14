@@ -1,0 +1,161 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe2b0;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Philosopher", sans-serif;
+}
+
+a:hover {
+  color: red;
+}
+
+li:last-child {
+  margin-right: 0px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.section-about {
+  height: 640px;
+  background-image: url(../img/01-Картинка-фона.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.section-about_block {
+  width: 420px;
+  height: 190px;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 213, 178, 0.8) 0%,
+    rgba(234, 156, 65, 0.8) 100%
+  );
+  position: absolute;
+  top: 54%;
+  left: 51%;
+  padding-top: 15px;
+}
+
+.section-about_border {
+  width: 390px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 17px 0 0 28px;
+}
+
+.section-about_h1 {
+  font-size: 36px;
+  margin: 0px;
+  margin-bottom: 9px;
+}
+
+.section-about_p {
+  font-size: 12px;
+  margin: 0px;
+}
+
+.section-description {
+  margin-bottom: 20px;
+}
+
+.section-description_icon-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-description_icon-box img {
+  margin-right: 76px;
+}
+
+.section-description_icon-box img:last-child {
+  margin-right: 0px;
+}
+
+.section-description_title2 {
+  font-size: 96px;
+  margin: 0px;
+  text-align: center;
+}
+
+span {
+  color: #f15b40;
+}
+
+.section-description_text-box p {
+  font-size: 18px;
+  max-width: 1000px;
+  text-align: center;
+  margin: 0px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.section-map {
+  margin-bottom: 20px;
+}
+
+.section-map h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #999999;
+  width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 80px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Philosopher", sans-serif;
+}
+
+p {
+  font-family: "Philosopher", sans-serif;
+}
